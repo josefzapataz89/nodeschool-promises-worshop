@@ -4,7 +4,7 @@ var promise = new Promise(function (fulfill, reject) {
     // Your solution here
     setTimeout(() => {
         reject(new Error("REJECTED!"));
-    }, 300);
+    }, 350);
 });
 
 function onReject (error) {
